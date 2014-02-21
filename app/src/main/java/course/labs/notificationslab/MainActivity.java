@@ -84,8 +84,11 @@ public class MainActivity extends Activity implements SelectionListener {
 			// Show a Toast Notification to inform user that 
 			// the app is "Downloading Tweets from Network"
 			log ("Issuing Toast Message");
-
-			
+      
+			Toast toast = Toast.makeText(getApplicationContext(),
+                    "Downloading Tweets from Network", Toast.LENGTH_SHORT);
+ 
+        toast.show();
 			
 			// TODO:
 			// Start new AsyncTask to download Tweets from network
