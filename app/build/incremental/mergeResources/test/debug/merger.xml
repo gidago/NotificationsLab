@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/isidrolopez/Documents/cursostudio/NotificationsLab/app/src/instrumentTest/res" />
+        <source path="/Users/isidrolopez/Documents/cursostudio/NotificationsLab/app/build/res/rs/test/debug" />
+        <source path="/Users/isidrolopez/Documents/cursostudio/NotificationsLab/app/build/res/generated/test/debug" />
+    </dataSet>
+
+</merger>
